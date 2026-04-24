@@ -77,7 +77,7 @@ services:
     restart: always
 
   phpmyadmin:
-    image: arm64v8/phpmyadmin
+    image: phpmyadmin:latest
     container_name: phpmyadmin
     environment:
       PMA_HOST: mysql-server
